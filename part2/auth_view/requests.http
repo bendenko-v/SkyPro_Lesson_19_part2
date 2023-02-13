@@ -1,0 +1,27 @@
+POST http://127.0.0.1:5000/auth
+Content-Type: application/json
+
+{
+  "username": "Sks",
+  "password": "password"
+}
+
+###
+
+POST http://127.0.0.1:5000/auth
+Content-Type: application/json
+
+{
+  "username": "SkyUser",
+  "password": "eGGPtRKS5",
+  "role": "admin"
+}
+
+###
+
+PUT http://127.0.0.1:5000/auth
+Content-Type: application/json
+
+{
+  "refresh_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlNreVVzZXIiLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE2ODc1NjAxNDV9.Xpmf-_J-f_aBL0Xj-1Hf-lvJCy5JXcfJmXUCwDxwi4E"
+}
